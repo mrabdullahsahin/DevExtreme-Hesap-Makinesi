@@ -1,0 +1,18 @@
+<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view dx-content-background"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+     
+        <label class="etiket">Sayı 1 :</label>
+        <div id="sayi1" class="txtKutusu" data-bind="dxTextBox: {value: '10'}"></div>
+        <label class="etiket">Sayı 2 :</label>
+        <div id="sayi2" class="txtKutusu" data-bind="dxTextBox: {value: '10'}"></div>
+        <label class="etiket">Sonuc :</label>
+        <div id="sonuc" data-bind="dxTextBox: {}"></div>
+        
+        <!-Butonlar->
+        <div class="btnlar" data-bind="dxButton: { text: '+', onClick: toplama }"></div>
+        <div class="btnlar" data-bind="dxButton: { text: '-', onClick: cikarma }"></div>
+        <div class="btnlar" data-bind="dxButton: { text: '*', onClick: carpma }"></div>
+        <div class="btnlar" data-bind="dxButton: { text: '/', onClick: bolme }"></div>
+        
+    </div>
+</div>
